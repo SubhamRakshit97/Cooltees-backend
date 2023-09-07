@@ -1,0 +1,162 @@
+[
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "user_name": "abhi",
+      "password": "pbkdf2_sha256$260000$MA8DdLyB6rOYeUN4XRLnXp$8YDyVcn/RB6kCyLB0Z/B95lkUMzpcPby+Bxh+Mts8ks=",
+      "email": "abhi@gmail.com",
+      "token": "5d8ec0b2431122fee1eed8828fd913d424d001c334ac333efa5a96ac38d8",
+      "token_expires_at": "2022-03-04T23:01:00.922Z",
+      "created_at": "2022-02-25T22:53:42.064Z",
+      "updated_at": "2022-02-25T23:01:00.922Z"
+    }
+  },
+  {
+    "model": "carts.cart",
+    "pk": 24,
+    "fields": {
+      "user": 4,
+      "item": 13,
+      "quantity": 2,
+      "created_at": "2022-02-25T23:08:36.800Z",
+      "updated_at": "2022-02-25T23:15:48.547Z"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "total_price": "379.96",
+      "full_name": "zsdxfghj",
+      "address_line1": "cvbh",
+      "address_line2": "zdxfcghvjb",
+      "city": "fcgvhbkjn",
+      "state": "dxfghj",
+      "postal_code": 32456,
+      "country": "US",
+      "telephone": 23456,
+      "created_at": "2022-02-25T22:54:47.750Z",
+      "updated_at": "2022-02-25T22:54:47.750Z"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 15,
+    "fields": {
+      "order": 6,
+      "item": 13,
+      "quantity": 2,
+      "created_at": "2022-02-25T22:54:47.764Z",
+      "updated_at": "2022-02-25T22:54:47.764Z"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 16,
+    "fields": {
+      "order": 6,
+      "item": 14,
+      "quantity": 2,
+      "created_at": "2022-02-25T22:54:47.780Z",
+      "updated_at": "2022-02-25T22:54:47.780Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 7,
+    "fields": {
+      "status": "active",
+      "name": "Galaxy",
+      "price": "19.99",
+      "image": "image/upload/v1645828868/kyq3wy0reewgeeoxszw5.png",
+      "created_at": "2022-02-25T22:41:09.241Z",
+      "updated_at": "2022-02-25T22:41:09.241Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 8,
+    "fields": {
+      "status": "active",
+      "name": "Hoodyboi",
+      "price": "29.99",
+      "image": "image/upload/v1645828905/gnmmpls4gqcysh2xoj8g.png",
+      "created_at": "2022-02-25T22:41:45.706Z",
+      "updated_at": "2022-02-25T22:41:45.706Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 9,
+    "fields": {
+      "status": "active",
+      "name": "Bruh",
+      "price": "16.99",
+      "image": "image/upload/v1645828933/aew5tnbg7cb7eg1dm2q2.png",
+      "created_at": "2022-02-25T22:42:15.094Z",
+      "updated_at": "2022-02-25T22:42:15.094Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 10,
+    "fields": {
+      "status": "active",
+      "name": "Nype",
+      "price": "11.99",
+      "image": "image/upload/v1645828960/cgukdcqjckuj9wyyy282.png",
+      "created_at": "2022-02-25T22:42:41.923Z",
+      "updated_at": "2022-02-25T22:42:41.923Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 11,
+    "fields": {
+      "status": "active",
+      "name": "AEO",
+      "price": "19.99",
+      "image": "image/upload/v1645828986/ow5hehla5klvmnjgk7rz.png",
+      "created_at": "2022-02-25T22:43:07.319Z",
+      "updated_at": "2022-02-25T22:43:07.319Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 12,
+    "fields": {
+      "status": "active",
+      "name": "Kappa",
+      "price": "9.99",
+      "image": "image/upload/v1645829064/jscox2evbryz90teawre.png",
+      "created_at": "2022-02-25T22:44:25.758Z",
+      "updated_at": "2022-02-25T22:44:25.758Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 13,
+    "fields": {
+      "status": "active",
+      "name": "Pergamino",
+      "price": "109.99",
+      "image": "image/upload/v1645829098/muyldzdtqvd2wi5e8w9g.png",
+      "created_at": "2022-02-25T22:44:59.344Z",
+      "updated_at": "2022-02-25T22:44:59.344Z"
+    }
+  },
+  {
+    "model": "items.item",
+    "pk": 14,
+    "fields": {
+      "status": "active",
+      "name": "Learn With",
+      "price": "79.99",
+      "image": "image/upload/v1645829126/lsth60nvybbpoqmexktu.png",
+      "created_at": "2022-02-25T22:45:27.093Z",
+      "updated_at": "2022-02-25T22:45:27.093Z"
+    }
+  }
+]
